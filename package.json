@@ -1,0 +1,37 @@
+{
+   "name": "ts-bot",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "tsc --outDir dist",
+      "start": "ts-node src/index.ts",
+      "dev": "ts-node-dev src/client.ts"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ataege/ts-bot.git"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/ataege/ts-bot/issues"
+   },
+   "homepage": "https://github.com/ataege/ts-bot#readme",
+   "dependencies": {
+      "@discordx/utilities": "^3.0.1",
+      "discord.js": "^13.3.0",
+      "discordx": "^7.1.0",
+      "mysql": "^2.18.1",
+      "reflect-metadata": "^0.1.10",
+      "ts-node-dev": "^1.1.8",
+      "typeorm": "0.2.38"
+   },
+   "devDependencies": {
+      "@types/node": "^8.0.29",
+      "ts-node": "3.3.0",
+      "typescript": "3.3.3333"
+   }
+}
